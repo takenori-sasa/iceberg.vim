@@ -5,7 +5,7 @@
 "
 " File:       iceberg.vim
 " Maintainer: cocopon <cocopon@me.com>
-" Modified:   2022-02-19 09:30+0900
+" Modified:   2022-02-19 09:37+0900
 " License:    MIT
 
 
@@ -404,6 +404,7 @@ hi! link TSComment Comment
 hi! link TSConstructor icebergNormalFg
 hi! link TSConditional Statement
 hi! link TSFuncBuiltin Statement
+hi! link TSKeywordOperator Statement
 hi! link TSConstant Constant
 hi! link TSConstBuiltin Constant
 hi! link TSConstMacro Constant

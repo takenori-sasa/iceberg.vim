@@ -838,6 +838,7 @@ function! s:create_links() abort
   call add(links, pgmnt#hi#link('TSConstructor', 'icebergNormalFg'))
   call add(links, pgmnt#hi#link('TSConditional', 'Statement'))
   call add(links, pgmnt#hi#link('TSFuncBuiltin', 'Statement'))
+  call add(links, pgmnt#hi#link('TSKeywordOperator', 'Statement'))
   call add(links, pgmnt#hi#link('TSConstant', 'Constant'))
   call add(links, pgmnt#hi#link('TSConstBuiltin', 'Constant'))
   call add(links, pgmnt#hi#link('TSConstMacro', 'Constant'))
