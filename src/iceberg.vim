@@ -568,7 +568,7 @@ function! s:create_colors(palette) abort
 
   " [Tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter)
   call extend(rules, pgmnt#hi#group(
-        \ ['TSFunction', 'TSFuncBuiltin', 'TSFuncMacro'], {
+        \ ['TSFunction',  'TSFuncMacro'], {
         \   'ctermfg': c.pale,
         \   'guifg': g.pale,
         \ }))
@@ -837,6 +837,7 @@ function! s:create_links() abort
   call add(links, pgmnt#hi#link('TSComment', 'Comment'))
   call add(links, pgmnt#hi#link('TSConstructor', 'icebergNormalFg'))
   call add(links, pgmnt#hi#link('TSConditional', 'Statement'))
+  call add(links, pgmnt#hi#link('TSFuncBuiltin', 'Statement'))
   call add(links, pgmnt#hi#link('TSConstant', 'Constant'))
   call add(links, pgmnt#hi#link('TSConstBuiltin', 'Constant'))
   call add(links, pgmnt#hi#link('TSConstMacro', 'Constant'))
