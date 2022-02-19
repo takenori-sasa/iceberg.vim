@@ -568,7 +568,7 @@ function! s:create_colors(palette) abort
 
   " [Tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter)
   call extend(rules, pgmnt#hi#group(
-        \ ['TSFunction', 'TSFunctionBuiltin', 'TSFunctionMacro'], {
+        \ ['TSFunction', 'TSFuncBuiltin', 'TSFuncMacro'], {
         \   'ctermfg': c.pale,
         \   'guifg': g.pale,
         \ }))
