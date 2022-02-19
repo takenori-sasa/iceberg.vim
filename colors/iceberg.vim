@@ -5,7 +5,7 @@
 "
 " File:       iceberg.vim
 " Maintainer: cocopon <cocopon@me.com>
-" Modified:   2021-12-28 09:50+0900
+" Modified:   2022-02-19 09:18+0900
 " License:    MIT
 
 
@@ -114,8 +114,8 @@ if &background == 'light'
   hi SyntasticStyleWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi SyntasticWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi TSFunction ctermfg=237 guifg=#505695
-  hi TSFunctionBuiltin ctermfg=237 guifg=#505695
-  hi TSFunctionMacro ctermfg=237 guifg=#505695
+  hi TSFuncBuiltin ctermfg=237 guifg=#505695
+  hi TSFuncMacro ctermfg=237 guifg=#505695
   hi TSMethod ctermfg=237 guifg=#505695
   hi TSURI cterm=underline ctermfg=31 gui=underline guifg=#3f83a6 term=underline
   hi ZenSpace ctermbg=125 guibg=#cc517a
@@ -248,8 +248,8 @@ else
   hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi SyntasticWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi TSFunction ctermfg=252 guifg=#a3adcb
-  hi TSFunctionBuiltin ctermfg=252 guifg=#a3adcb
-  hi TSFunctionMacro ctermfg=252 guifg=#a3adcb
+  hi TSFuncBuiltin ctermfg=252 guifg=#a3adcb
+  hi TSFuncMacro ctermfg=252 guifg=#a3adcb
   hi TSMethod ctermfg=252 guifg=#a3adcb
   hi TSURI cterm=underline ctermfg=109 gui=underline guifg=#89b8c2 term=underline
   hi ZenSpace ctermbg=203 guibg=#e27878
